@@ -4,7 +4,7 @@ import ReactDOM from "react-dom";
 
 // include your styles into the webpack bundle
 import "../styles/index.css";
-import "../styles/Button.css";
+import "../styles/ButtonOwn.css";
 import "../styles/Card.css";
 import "../styles/Footer.css";
 import "../styles/Form.css";
@@ -15,7 +15,7 @@ import "../styles/TextContainer.css";
 
 //import your own components
 import Home from "./component/home.jsx";
-import Button from "./component/Button.jsx";
+import ButtonOwn from "./component/ButtonOwn.jsx";
 import Card from "./component/Card.jsx";
 import Footer from "./component/Footer.jsx";
 import Form from "./component/Form.jsx";
