@@ -10,7 +10,11 @@ const ButtonOwn = (props) => {
 	return (
 		<>
 			<h1>{props.headerTitle}</h1>
-			<button onClick={handleClick} type="button" role="button">
+			<button
+				onClick={handleClick}
+				type="button"
+				role="button"
+				className="HeaderButton">
 				{props.title}
 			</button>
 		</>
