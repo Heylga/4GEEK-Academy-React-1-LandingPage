@@ -1,5 +1,8 @@
 import React from "react";
+
 import ButtonOwn from "../component/ButtonOwn.jsx";
+import Card from "../component/Card.jsx";
+
 import "../../styles/Main.css";
 
 const Main = () => {
@@ -9,8 +12,11 @@ const Main = () => {
 
 	return (
 		<>
-			<ButtonOwn title="Iniciar sesion" handleClick={signIn}></ButtonOwn>
-			<ButtonOwn title="Registrate" handleClick={signUp}></ButtonOwn>
+			<ButtonOwn
+				title="Iniciar sesion"
+				handleClick={signIn}
+			/>
+
 		</>
 	);
 };
