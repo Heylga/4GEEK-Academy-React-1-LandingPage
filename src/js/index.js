@@ -6,7 +6,9 @@ import ReactDOM from "react-dom";
 import "../styles/Main.css";
 
 //import your own components
-import Main from "./view/Main.jsx"
+import Main from "./view/Main.jsx";
 
 //render your react application
 ReactDOM.render(<Main />, document.querySelector("#app"));
+
+console.log("funciona gitpod");

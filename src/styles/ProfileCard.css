@@ -1,11 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
 .container{
     width: 500px;
     height: 500px;
-    background-color: red;
+    background-color: rgb(200, 223, 221);
 }
 .floatLeft{
     float: left;
 }
 .floatRight{
     float: right;
+}
+.description_text{
+    font-family: 'Roboto', sans-serif;
 }
