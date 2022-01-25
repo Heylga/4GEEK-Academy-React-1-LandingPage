@@ -12,7 +12,6 @@ import "../styles/Navbar.css";
 import "../styles/ProfileCard.css";
 import "../styles/TextContainer.css";
 
-
 //import your own components
 import Home from "./component/home.jsx";
 import Button from "./component/Button.jsx";
@@ -25,7 +24,3 @@ import TextContainer from "./component/TextContainer.jsx";
 
 //render your react application
 ReactDOM.render(<Home />, document.querySelector("#app"));
-
-
-
-
