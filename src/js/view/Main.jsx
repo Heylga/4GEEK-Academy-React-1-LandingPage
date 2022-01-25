@@ -12,11 +12,7 @@ const Main = () => {
 
 	return (
 		<>
-			<ButtonOwn
-				title="CLICK"
-				handleClick={signIn}
-			/>
-
+			<ButtonOwn title="CLICK" handleClick={signIn} />
 		</>
 	);
 };

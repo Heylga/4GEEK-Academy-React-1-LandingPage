@@ -16,7 +16,6 @@ const ButtonOwn = (props) => {
 				role="button"
 				className="HeaderButton">
 				<h2>{props.title}</h2>
-				
 			</button>
 		</>
 	);
