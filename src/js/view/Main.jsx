@@ -3,7 +3,6 @@ import ProfileCard from "../component/ProfileCard.jsx";
 
 import "../../styles/Main.css";
 
-
 const Main = () => {
 	const signIn = (ev) => {};
 
@@ -11,7 +10,7 @@ const Main = () => {
 
 	return (
 		<>
-			<ProfileCard title="Iniciar sesion" handleClick={signIn}></ProfileCard>
+			<ProfileCard name="Victor" />
 		</>
 	);
 };
