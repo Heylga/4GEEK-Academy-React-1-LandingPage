@@ -13,7 +13,7 @@ const Main = () => {
 	return (
 		<>
 			<ButtonOwn
-				title="Iniciar sesion"
+				title="CLICK"
 				handleClick={signIn}
 			/>
 
