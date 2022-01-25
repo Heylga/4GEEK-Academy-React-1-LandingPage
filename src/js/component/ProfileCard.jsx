@@ -3,16 +3,18 @@ import * as PropTypes from "prop-types";
 import "../../styles/ProfileCard.css";
 
 const ProfileCard = (props) => {
-	const typeStyle = this.props.typeStyle;
-	//CASE typeStyle= left: image float LEFT 
-	//CASE typeStyle= right: image float RIGHT 
+	const typeStyle = props.typeStyle;
+	//CASE typeStyle= "1": image float LEFT 
+	//CASE typeStyle= "0": image float RIGHT 
 	return (
 		<>
 			<div class="container">
 				<h1>{props.name}</h1>
 				<p>{props.descriptionText}</p>
 				<img src={props.urlImage} alt={props.altImage} 
-				></img>
+				class={
+					(this.typeStyle === 1) ? 'floatLeft' : 'floatRight'
+				}></img>
 			</div>
 		</>
 	);
@@ -23,7 +25,7 @@ ProfileCard.PropTypes = {
 	name: PropTypes.string,
 	descriptionText: PropTypes.string,
 	urlImage: PropTypes.string,
-	altImage: PropTypes,
+	altImage: PropTypes.string,
 };
 
 export default ProfileCard;
