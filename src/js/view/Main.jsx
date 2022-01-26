@@ -15,7 +15,7 @@ const Main = () => {
 	return (
 		<>
 		<div>
-			{/* <Navbar className="menu"></Navbar> */}
+			<Navbar className="menu"></Navbar>
 			<Card></Card>
 		</div>
 			<Footer developedBy="Design By Heylga &amp; Programisto1011" />
