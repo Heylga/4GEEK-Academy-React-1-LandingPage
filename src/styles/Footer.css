@@ -3,7 +3,7 @@
     border-radius: 10px;
     display: flex;
     align-items: center;
-    background-color: red;
+    background-color: rgb(190, 158, 158);
 }
 .iconsContainer{
     width: 20%;
