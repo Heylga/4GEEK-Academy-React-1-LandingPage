@@ -1,8 +1,10 @@
 .Container.Card {
     display:inline-block;
+    padding-top: 15%;
     width: 100%;
     height:auto;
     margin:auto;
+    /* position: fixed; */
 }
 
 .carduno {
