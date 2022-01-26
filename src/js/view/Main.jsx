@@ -5,7 +5,14 @@ import Footer from "../component/Footer.jsx";
 
 //create your first component
 const Main = () => {
-	return <Footer name="hola" />;
-};
+
+	return (
+	<>
+		<Footer name="hola"
+		
+		
+		/>;
+	</>
+)};
 
 export default Main;

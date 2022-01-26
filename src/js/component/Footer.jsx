@@ -6,11 +6,14 @@ const Footer = (props) => {
 	return (
 		<>
 			<div class="container">
+				<p class="name">{props.name}</p>
 				<p class="description_text">{props.descriptionText}</p>
 				<img
 					src={props.urlImage}
 					alt={props.altImage}
-					class={props.typeStyle === "1" ? "floatLeft" : "floatRight"}
+					className={
+						props.typeStyle === "1" ? "floatLeft" : "floatRight"
+					}
 				/>
 			</div>
 		</>
