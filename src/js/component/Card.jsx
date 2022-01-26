@@ -4,7 +4,7 @@ import "../../styles/Card.css";
 
 import "../../img/results.jpg";
 import "../../img/optimization.jpg";
-import "../../img/teamwork.jpg";
+import "../../img/teamworking.jpg";
 
 const Card = (props) => {
 	return (
