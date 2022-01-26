@@ -25,7 +25,7 @@ const Card = (props) => {
 						</div>
 
 						<div className="cardtres col-md-4">
-							<img src="teamwork.jpg" />
+							<img src="teamworking.jpg" />
 							<h5 class="card-title"> Power 3 </h5>
 							<p class="card-text"> Hello hello hello </p>
 						</div>
