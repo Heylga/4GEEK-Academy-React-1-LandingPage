@@ -1,13 +1,18 @@
 import React from "react";
 import Navbar from "../component/Navbar.jsx";
+import ButtonOwn from "../component/ButtonOwn.jsx";
+import Card from "../component/Card.jsx";
 
 // include styles
 import "../../styles/Main.css";
 //include images into your bundle
-import headerFoto from "../../img/header-foto.png";
+import headerFoto from "../../img/header-foto.png"; 
 
-//create your first component
 const Main = () => {
+	const signIn = (ev) => {};
+
+	const signUp = (ev) => {};
+
 	return (
 		<div>
 			<h1 className="text-center mt-5">Hello Rigo!</h1>
