@@ -14,6 +14,7 @@ const Main = () => {
 	return (
 		<div>
 			<Navbar className="menu"></Navbar>
+			<Card></Card>
 		</div>
 	);
 };
