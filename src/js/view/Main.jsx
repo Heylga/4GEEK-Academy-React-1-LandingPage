@@ -1,18 +1,21 @@
 import React from "react";
 
-//import Footer component
+import ButtonOwn from "../component/ButtonOwn.jsx";
+import Card from "../component/Card.jsx";
 import Footer from "../component/Footer.jsx";
 
-//create your first component
+import "../../styles/Main.css";
+
 const Main = () => {
+	const signIn = (ev) => {};
+
+	const signUp = (ev) => {};
 
 	return (
-	<>
-		<Footer name="hola"
-		
-		
-		/>;
-	</>
-)};
+		<>
+			<ButtonOwn title="CLICK" handleClick={signIn} />
+		</>
+	);
+};
 
 export default Main;

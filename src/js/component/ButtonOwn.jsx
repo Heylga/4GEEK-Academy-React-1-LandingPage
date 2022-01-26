@@ -1,8 +1,8 @@
 import React from "react";
 import * as PropTypes from "prop-types";
-import "../../styles/Card.css";
+import "../../styles/ButtonOwn.css";
 
-const Card = (props) => {
+const ButtonOwn = (props) => {
 	const handleClick = (ev) => {
 		props.handleClick(ev);
 	};
@@ -15,18 +15,16 @@ const Card = (props) => {
 				type="button"
 				role="button"
 				className="HeaderButton">
-				{props.title}
+				<h2>{props.title}</h2>
 			</button>
-			<img src={props.url} alt="display image" width="500" height="600" />
 		</>
 	);
 };
 
-Card.PropTypes = {
+ButtonOwn.PropTypes = {
 	title: PropTypes.string,
 	handleClick: PropTypes.func,
 	headerTitle: PropTypes.string,
-	url: PropTypes.string,
 };
 
-export default Card;
+export default ButtonOwn;
