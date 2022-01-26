@@ -1,0 +1,33 @@
+.Container.Card {
+    display:inline-block;
+    width: 100%;
+    height:auto;
+    margin:auto;
+    background: chartreuse;
+}
+.carduno {
+    padding-left: 10%;
+    display: inline-block;
+    width: 30%;
+    height:auto;
+    margin: auto;
+    background: chocolate;
+}
+
+.carddos {
+    padding-left: 10%;
+    display: inline-block;
+    width: 30%;
+    height:auto;
+    margin: auto;
+    background:darkcyan;
+}
+
+.cardtres {
+    padding-left: 10%;
+    display: inline-block;
+    width: 30%;
+    height:auto;
+    margin: auto;
+    background:darkmagenta;
+}

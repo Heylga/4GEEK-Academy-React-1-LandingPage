@@ -13,7 +13,8 @@ const Main = () => {
 
 	return (
 		<div>
-			<Navbar className="menu"></Navbar>
+			{/* <Navbar className="menu"></Navbar> */}
+			<Card></Card>
 		</div>
 	);
 };
