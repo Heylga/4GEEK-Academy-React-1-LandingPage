@@ -3,15 +3,15 @@
     width: 100%;
     height:auto;
     margin:auto;
-    background: chartreuse;
 }
+
 .carduno {
+    margin-left: 10%;
     padding-left: 10%;
     display: inline-block;
     width: 30%;
     height:auto;
     margin: auto;
-    background: chocolate;
 }
 
 .carddos {
@@ -20,14 +20,13 @@
     width: 30%;
     height:auto;
     margin: auto;
-    background:darkcyan;
 }
 
 .cardtres {
     padding-left: 10%;
+    margin-right: 20%;;
     display: inline-block;
     width: 30%;
     height:auto;
     margin: auto;
-    background:darkmagenta;
 }
