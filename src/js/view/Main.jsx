@@ -1,8 +1,10 @@
 import React from "react";
+//import Navbar from "../component/Navbar.jsx";
+
 // include styles
 import "../../styles/Main.css";
 //include images into your bundle
-import rigoImage from "../../img/rigo-baby.jpg";
+import headerFoto from "../../img/header-foto.png";
 
 //create your first component
 const Main = () => {
@@ -10,7 +12,7 @@ const Main = () => {
 		<div>
 			<h1 className="text-center mt-5">Hello Rigo!</h1>
 			<p>
-				<img src={rigoImage} />
+				<img src={headerFoto} />
 			</p>
 			<a href="#" className="btn btn-success">
 				If you see this green button... bootstrap is working...
