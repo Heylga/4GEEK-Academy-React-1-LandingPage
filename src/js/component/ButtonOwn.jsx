@@ -9,7 +9,6 @@ const ButtonOwn = (props) => {
 
 	return (
 		<>
-			<h1>{props.headerTitle}</h1>
 			<button
 				onClick={handleClick}
 				type="button"
@@ -24,7 +23,6 @@ const ButtonOwn = (props) => {
 ButtonOwn.PropTypes = {
 	title: PropTypes.string,
 	handleClick: PropTypes.func,
-	headerTitle: PropTypes.string,
 };
 
 export default ButtonOwn;

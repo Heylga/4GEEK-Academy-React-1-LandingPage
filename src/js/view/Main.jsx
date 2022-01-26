@@ -6,7 +6,7 @@ import Card from "../component/Card.jsx";
 // include styles
 import "../../styles/Main.css";
 //include images into your bundle
-import headerFoto from "../../img/header-foto.png"; 
+import headerFoto from "../../img/header-foto.png";
 
 const Main = () => {
 	const signIn = (ev) => {};
@@ -27,6 +27,7 @@ const Main = () => {
 				<a href="http://www.4geeksacademy.com">4Geeks Academy</a>, with
 				love!
 			</p>
+			<Navbar className="menu"></Navbar>
 		</div>
 	);
 };
