@@ -1,0 +1,52 @@
+.Container {
+    /* background-image: url("../image/header.foto.png");  <-----(Victor) Por qué no funciona esta opción*/
+    background-image: url("https://static.wixstatic.com/media/84770f_961e490ab1554b45bfce8b7dfacdb6fd~mv2.png/v1/fill/w_640,h_396,al_t,q_85,usm_0.66_1.00_0.01/84770f_961e490ab1554b45bfce8b7dfacdb6fd~mv2.webp");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+    /* border: 1px solid black; */
+    background-size: cover;
+}
+
+.row.header {
+    height: 33%;
+    width: 100%;
+    margin: auto;
+    /* background: red; */
+    position:flex;
+    font-family: 'Brush Script MT', cursive;
+    font-size:large;
+    margin-left: 600px;
+    padding-top: 50px;
+
+}
+
+.row.buttons {
+    height: 13%;
+    width: 100%;
+    margin: auto;
+    /* background: green; */
+    display: inline-block;
+    margin-left: 500px;
+}
+
+.row.motivation {
+    height: 34%;
+    width: 100%;
+    margin: auto;
+    /* background: hotpink; */
+    position:center;
+    font-family:'Courier New', Courier, monospace;
+    margin-left: 450px;
+    padding-top: 50px;
+}
+
+.row.footer {
+    /* background:violet; */
+    height: 200px;
+    width: 60%;
+    margin: auto;
+    margin-left: 320px;
+    font-family:'Brush Script MT', cursive;
+    text-align: center;
+}
