@@ -4,17 +4,41 @@ import ButtonOwn from "./ButtonOwn.jsx";
 import "../../styles/Navbar.css";
 import propTypes from "prop-types";
 
+import headerFoto from "../../img/header-foto.png";
+
 const Navbar = (props) => {
 	return (
 		<>
-			<ButtonOwn title="Services"></ButtonOwn>
-			<ButtonOwn title="About Us"></ButtonOwn>
-			<ButtonOwn title="Contact"></ButtonOwn>
+			<div className="Container">
+				<div className="row header">
+					<h1>PoWer-Up Stunning ∜ </h1>
+				</div>
+
+				<div className="row buttons">
+					<ButtonOwn
+						className="headerButtom"
+						title="Services"></ButtonOwn>
+					<ButtonOwn
+						className="headerButtom"
+						title="About Us"></ButtonOwn>
+					<ButtonOwn
+						className="headerButtom"
+						title="Contact"></ButtonOwn>
+				</div>
+
+				<div className="row motivation">
+					<h1>Revolutions never go backward</h1>
+				</div>
+				<div className="row footer">
+					<h1>
+						Focus on the solution and the quality of our service.
+						Great teamwork brings us to great results given to our
+						customers. We assure you a personal high assistance!{" "}
+					</h1>
+				</div>
+			</div>
 		</>
 	);
 };
-Navbar.PropTypes = {
-	title: PropTypes.string,
-	handleClick: PropTypes.func,
-};
+Navbar.PropTypes = {};
 export default Navbar;
