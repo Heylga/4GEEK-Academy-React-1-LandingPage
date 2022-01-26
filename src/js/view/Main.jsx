@@ -13,7 +13,7 @@ const Main = () => {
 
 	return (
 		<>
-			<ButtonOwn title="CLICK" handleClick={signIn} />
+			<Footer developedBy="Design By Heylga &amp; Programisto1011" />
 		</>
 	);
 };

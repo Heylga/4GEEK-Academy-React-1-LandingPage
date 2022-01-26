@@ -1,31 +1,44 @@
 import React from "react";
 import * as PropTypes from "prop-types";
+
+//get our fontawesome imports
+//(Font: https://fontawesome.com/v5.15/how-to-use/on-the-web/using-with/react)
+//import { faCoffee } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+//import icon
+import facebookIcon from "../../img/facebookIcon.png";
+import instagramIcon from "../../img/instagramIcon.png";
+import linkedinIcon from "../../img/linkedinIcon.png";
+
 import "../../styles/Footer.css";
 
 const Footer = (props) => {
 	return (
 		<>
 			<div class="container">
-				<p class="name">{props.name}</p>
-				<p class="description_text">{props.descriptionText}</p>
-				<img
-					src={props.urlImage}
-					alt={props.altImage}
-					className={
-						props.typeStyle === "1" ? "floatLeft" : "floatRight"
-					}
-				/>
+				<div className="iconsContainer">
+					<a title="link facebook" href="https://es-es.facebook.com/">
+						<img src={facebookIcon} alt="facebook icon"></img>
+					</a>
+					<a title="link instagram" href="https://www.instagram.com/">
+						<img src={instagramIcon} alt="instagram icon"></img>
+					</a>
+					<a title="link linkedin" href="https://es.linkedin.com/">
+						<img src={linkedinIcon} alt="Linkedin icon"></img>
+					</a>
+				</div>
+				<div className="textContainer">
+					<p class="developedBy">{props.developedBy}</p>
+				</div>
 			</div>
 		</>
 	);
 };
 
 Footer.PropTypes = {
-	name: PropTypes.string,
-	descriptionText: PropTypes.string,
-	urlImage: PropTypes.string,
-	altImage: PropTypes.string,
-	typeStyle: PropTypes.string,
+	developedBy: PropTypes.string,
+	// colorBackgorund: PropTypes.string,
 };
 
 export default Footer;
