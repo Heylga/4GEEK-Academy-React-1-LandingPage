@@ -3,6 +3,7 @@ import Navbar from "../component/Navbar.jsx";
 import ButtonOwn from "../component/ButtonOwn.jsx";
 import Card from "../component/Card.jsx";
 import Footer from "../component/Footer.jsx";
+import IForm from "../component/Form.jsx";
 
 // include styles
 import "../../styles/Main.css";
@@ -19,6 +20,7 @@ const Main = () => {
 				<Card></Card>
 			</div>
 			<Footer developedBy="Design By Heylga &amp; Programisto1011" />
+			<IForm />
 		</>
 	);
 };
