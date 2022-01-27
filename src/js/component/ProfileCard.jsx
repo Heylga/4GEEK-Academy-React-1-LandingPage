@@ -12,21 +12,13 @@ const ProfileCard = (props) => {
 					</div>
 				</div>
 				<div class="row  justify-content-center">
-					<div class="col-12 -elements">
+					<div class="col-12 contElements">
 						<div>
 							<h4 class="description_text">
 								{props.descriptionText}
 							</h4>
 						</div>
-						<img
-							src={props.urlImage}
-							alt={props.altImage}
-							class={
-								props.typeStyle === "1"
-									? "floatLeft"
-									: "floatRight"
-							}
-						/>
+						<img src={props.urlImage} alt={props.altImage} />
 					</div>
 				</div>
 			</div>
@@ -35,7 +27,6 @@ const ProfileCard = (props) => {
 };
 
 ProfileCard.PropTypes = {
-	Style: PropTypes.string,
 	name: PropTypes.string,
 	descriptionText: PropTypes.string,
 	urlImage: PropTypes.string,

@@ -12,7 +12,7 @@ const Card = (props) => {
 			<div className="row Container Card">
 				<div className="card carduno col-md-4">
 					<div class="card-body">
-						<img src="results.jpg" />
+						<img class="imgCard" src="results.jpg" />
 						<h5 class="card-title">
 							<strong>
 								ELEGANT <br />
@@ -28,7 +28,7 @@ const Card = (props) => {
 
 				<div className="card carddos col-md-4">
 					<div class="card-body">
-						<img src="optimization.jpg" />
+						<img class="imgCard" src="optimization.jpg" />
 						<h5 class="card-title">
 							<strong>OPTIMIZATION</strong>
 						</h5>
@@ -41,7 +41,7 @@ const Card = (props) => {
 
 				<div class="card cardtres col-md-4">
 					<div class="card-body">
-						<img src="teamworking.jpg" />
+						<img class="imgCard" src="teamworking.jpg" />
 						<h5 class="card-title">
 							<strong>
 								COMMITED TO WIN <br /> TOGETHER

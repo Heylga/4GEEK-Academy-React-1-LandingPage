@@ -1,13 +1,14 @@
 .HeaderButton {
     width: 200px;
     padding: 8px;
-    color: #fff;
+    color: rgb(121, 116, 116);
     border: 2px solid #fff;
     text-align: center;
     outline: none;
     text-decoration: none;
     transition: background-color 0.2s ease-out,
                 color 0.2s ease-out;
+    background-color: cornsilk;
   }
   .HeaderButton:hover,
   .HeaderButton:active {
