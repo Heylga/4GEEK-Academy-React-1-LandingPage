@@ -10,8 +10,8 @@ const Navbar = (props) => {
 	return (
 		<>
 			<div className="Container">
-				<div className="row header">
-					<h1>PoWer-Up Stunning ∜ </h1>
+				<div className="row">
+					<h1 className="header">PoWer-Up Stunning ∜ </h1>
 				</div>
 
 				<div className="row buttons">
@@ -26,11 +26,11 @@ const Navbar = (props) => {
 						title="Contact"></ButtonOwn>
 				</div>
 
-				<div className="row motivation align-items-center">
-					<h1>Revolutions never go backward</h1>
+				<div className="row align-items-center">
+					<h1 class="motivation">Revolutions never go backward</h1>
 				</div>
-				<div className="row footer align-items-center">
-					<h1>
+				<div className="row align-items-center">
+					<h1 class="footer">
 						Focus on the solution and the quality of our service.
 						Great teamwork brings us to great results given to our
 						customers. We assure you a personal high assistance!

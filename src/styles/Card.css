@@ -1,19 +1,15 @@
 .Container.Card {
-    background-color: red;
     width: 100%;
     height:auto;
     margin:auto;
 }
 .carduno {
-    background-color: beige;
     text-align: center;
 }
 .carddos {
-
     text-align: center;
 }
 .cardtres {
-
     text-align: center;
 }
 

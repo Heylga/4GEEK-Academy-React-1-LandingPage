@@ -11,7 +11,7 @@ const IForm = (props) => {
 	return (
 		<>
 			<Row className="justify-content-center">
-				<div class="container-fluid col-8 bg-light m-3 mr-3">
+				<div class="container-fluid containerForm col-8 m-3 mr-3">
 					<Form>
 						<h2 class="text-center">Solicitar más información</h2>
 						<p class="text-justify font-weight-light">
