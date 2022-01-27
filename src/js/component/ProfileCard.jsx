@@ -11,7 +11,17 @@ const ProfileCard = (props) => {
 				<img
 					src={props.urlImage}
 					alt={props.altImage}
-					class={props.typeStyle === 1 ? "floatLeft" : "floatRight"} />
+					class={props.typeStyle === 1 ? "floatLeft" : "floatRight"}
+				/>
+			</div>
+			<div class="container">
+				<img
+					src={props.urlImage}
+					alt={props.altImage}
+					class={props.typeStyle === 1 ? "floatRight" : "floatLeft"}
+				/>
+				<h1>{props.name}</h1>
+				<p class="description_text">{props.descriptionText}</p>
 			</div>
 		</>
 	);
