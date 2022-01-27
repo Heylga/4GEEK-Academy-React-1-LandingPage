@@ -15,10 +15,8 @@ const Main = () => {
 
 	return (
 		<>
-			<div>
-				<Navbar className="menu"></Navbar>
-				<Card></Card>
-			</div>
+			<Navbar className="menu"></Navbar>
+			<Card></Card>
 			<Footer developedBy="Design By Heylga &amp; Programisto1011" />
 			<IForm />
 		</>

@@ -9,36 +9,34 @@
 }
 
 .row.header {
-    height: 33%;
+    height: 150px;
     width: 100%;
     margin: auto;
-    /* background: red; */
+    background: red; 
     position:flex;
     font-family: 'Brush Script MT', cursive;
     font-size:large;
-    margin-left: 600px;
+    text-align: center;
     padding-top: 50px;
 
 }
 
 .row.buttons {
-    height: 13%;
     width: 100%;
-    margin: auto;
-    /* background: green; */
+    text-align: center;
+    background: green; 
     display: inline-block;
-    margin-left: 500px;
+}
+.headerButtom{
+    padding: 100px;
 }
 
 .row.motivation {
+    background-color: blueviolet;
     height: 34%;
     width: 100%;
-    margin: auto;
-    /* background: hotpink; */
-    position:center;
     font-family:'Courier New', Courier, monospace;
-    margin-left: 450px;
-    padding-top: 50px;
+    text-align: center;
 }
 
 .row.footer {

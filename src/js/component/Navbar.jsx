@@ -16,7 +16,7 @@ const Navbar = (props) => {
 
 				<div className="row buttons">
 					<ButtonOwn
-						className="headerButtom"
+						class="headerButtom"
 						title="Services"></ButtonOwn>
 					<ButtonOwn
 						className="headerButtom"

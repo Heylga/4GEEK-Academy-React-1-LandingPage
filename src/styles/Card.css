@@ -1,37 +1,35 @@
 .Container.Card {
-
+    background-color: red;
     display:inline-block;
-    padding-top: 20%;
+
     width: 100%;
     height:auto;
     margin:auto;
     /* position: fixed; */
 }
+.card{
+    height: 100% !important;
+}
 
 .carduno {
-    margin-left: 20%;
-    padding-left: 10%;
+    background-color: beige;
     display: inline-block;
     width: 30%;
-    height:auto;
+    height: 100%;
     margin: auto;
     text-align: center;
 }
 
 .carddos {
-    padding-left: 10%;
     display: inline-block;
     width: 30%;
-    height:auto;
+    height: 100%;
     margin: auto;
     text-align: center;
 }
 
 .cardtres {
-    padding-left: 10%;
-    margin-right: 20%;;
-    display: inline-block;
-    width: 30%;
+    margin: auto;
     height:auto;
     margin: auto;
     text-align: center;
