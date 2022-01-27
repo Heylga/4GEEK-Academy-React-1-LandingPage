@@ -14,7 +14,6 @@
 .carduno {
     background-color: beige;
     display: inline-block;
-    width: 30%;
     height: 100%;
     margin: auto;
     text-align: center;
@@ -22,7 +21,6 @@
 
 .carddos {
     display: inline-block;
-    width: 30%;
     height: 100%;
     margin: auto;
     text-align: center;

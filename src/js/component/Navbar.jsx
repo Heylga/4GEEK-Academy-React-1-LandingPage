@@ -26,10 +26,10 @@ const Navbar = (props) => {
 						title="Contact"></ButtonOwn>
 				</div>
 
-				<div className="row motivation">
+				<div className="row motivation align-items-center">
 					<h1>Revolutions never go backward</h1>
 				</div>
-				<div className="row footer">
+				<div className="row footer align-items-center">
 					<h1>
 						Focus on the solution and the quality of our service.
 						Great teamwork brings us to great results given to our
