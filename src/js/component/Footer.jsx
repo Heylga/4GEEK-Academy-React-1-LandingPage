@@ -1,11 +1,6 @@
 import React from "react";
 import * as PropTypes from "prop-types";
 
-//get our fontawesome imports
-//(Font: https://fontawesome.com/v5.15/how-to-use/on-the-web/using-with/react)
-//import { faCoffee } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
 //import icon
 import facebookIcon from "../../img/facebookIcon.png";
 import instagramIcon from "../../img/instagramIcon.png";

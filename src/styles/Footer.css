@@ -1,9 +1,9 @@
 .container{
-    border: 1px solid black;
+    border: 1px solid rgb(233, 227, 227);
     border-radius: 10px;
     display: flex;
     align-items: center;
-    background-color: rgb(190, 158, 158);
+    background-color: cornsilk;
 }
 .iconsContainer{
     width: 20%;
@@ -11,7 +11,7 @@
     line-height: 100%;
     text-align: center;
 }
-img{
+.iconsContainer img{
     width: 50px;
     padding: 2px;
     margin: 4px;

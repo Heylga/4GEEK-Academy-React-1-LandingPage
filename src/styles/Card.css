@@ -1,0 +1,20 @@
+.Container.Card {
+    padding: 25px;
+    width: 100%;
+    height:auto;
+    margin:auto;
+}
+.carduno {
+    text-align: center;
+}
+.carddos {
+    text-align: center;
+}
+.cardtres {
+    text-align: center;
+}
+
+.imgCard{
+    width: 100%;
+}
+
