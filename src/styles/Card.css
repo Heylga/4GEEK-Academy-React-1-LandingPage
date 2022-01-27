@@ -1,0 +1,39 @@
+.Container.Card {
+
+    display:inline-block;
+    padding-top: 20%;
+    width: 100%;
+    height:auto;
+    margin:auto;
+    /* position: fixed; */
+}
+
+.carduno {
+    margin-left: 20%;
+    padding-left: 10%;
+    display: inline-block;
+    width: 30%;
+    height:auto;
+    margin: auto;
+    text-align: center;
+}
+
+.carddos {
+    padding-left: 10%;
+    display: inline-block;
+    width: 30%;
+    height:auto;
+    margin: auto;
+    text-align: center;
+}
+
+.cardtres {
+    padding-left: 10%;
+    margin-right: 20%;;
+    display: inline-block;
+    width: 30%;
+    height:auto;
+    margin: auto;
+    text-align: center;
+}
+

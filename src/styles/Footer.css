@@ -1,0 +1,29 @@
+.container{
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(190, 158, 158);
+}
+.iconsContainer{
+    width: 20%;
+    height:  100%;
+    line-height: 100%;
+    text-align: center;
+}
+img{
+    width: 50px;
+    padding: 2px;
+    margin: 4px;
+}
+.textContainer{
+    width: 80%;
+    text-align: right;
+    height: 100%;
+    line-height: 100%;
+}
+p{
+    margin: auto;
+    line-height: normal;
+    font-family: "Times New Roman", Times, serif;
+}
