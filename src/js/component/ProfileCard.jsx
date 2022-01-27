@@ -5,23 +5,30 @@ import "../../styles/ProfileCard.css";
 const ProfileCard = (props) => {
 	return (
 		<>
-			<div class="container">
-				<h1>{props.name}</h1>
-				<p class="description_text">{props.descriptionText}</p>
-				<img
-					src={props.urlImage}
-					alt={props.altImage}
-					class={props.typeStyle === 1 ? "floatLeft" : "floatRight"}
-				/>
-			</div>
-			<div class="container">
-				<img
-					src={props.urlImage}
-					alt={props.altImage}
-					class={props.typeStyle === 1 ? "floatRight" : "floatLeft"}
-				/>
-				<h1>{props.name}</h1>
-				<p class="description_text">{props.descriptionText}</p>
+			<div class="container-fluid">
+				<div class="row  justify-content-center">
+					<div class="col-12">
+						<h1 class=" name">{props.name}</h1>
+					</div>
+				</div>
+				<div class="row  justify-content-center">
+					<div class="col-12 -elements">
+						<div>
+							<h4 class="description_text">
+								{props.descriptionText}
+							</h4>
+						</div>
+						<img
+							src={props.urlImage}
+							alt={props.altImage}
+							class={
+								props.typeStyle === "1"
+									? "floatLeft"
+									: "floatRight"
+							}
+						/>
+					</div>
+				</div>
 			</div>
 		</>
 	);

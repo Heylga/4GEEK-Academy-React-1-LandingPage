@@ -25,6 +25,7 @@
     width: 100%;
     text-align: center;
     background: green; 
+    margin: auto;
     display: inline-block;
 }
 .headerButtom{
@@ -33,6 +34,7 @@
 
 .row.motivation {
     background-color: blueviolet;
+    margin: auto;
     height: 34%;
     width: 100%;
     font-family:'Courier New', Courier, monospace;
@@ -42,9 +44,6 @@
 
 .row.footer {
     /* background:violet; */
-    height: 200px;
-    width: 60%;
-    margin: auto;
     font-family:'Brush Script MT', cursive;
     text-align: center;
 }

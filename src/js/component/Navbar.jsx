@@ -33,7 +33,7 @@ const Navbar = (props) => {
 					<h1>
 						Focus on the solution and the quality of our service.
 						Great teamwork brings us to great results given to our
-						customers. We assure you a personal high assistance!{" "}
+						customers. We assure you a personal high assistance!
 					</h1>
 				</div>
 			</div>
